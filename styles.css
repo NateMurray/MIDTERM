@@ -1,0 +1,90 @@
+/* Nathaniel Murray 10/30/25 */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body {
+    background-color: #f6f7f9;
+    background-image: url('creepy.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Page header*/
+header {
+    max-width: 350px;
+    margin: 1px;
+    padding: 3px;
+    background: rgba(8, 37, 62, 0.5);
+    border-radius: 12px;
+}
+
+header h1 {
+    margin: 0 0 8px 0;
+    font-size: 1.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(224, 134, 30);
+}
+
+nav {
+    max-width: 980px;
+    padding: 10px 16px;
+    justify-content: center;
+    gap: 8px 12px;
+    align-items: center;
+    background: url('old_paper.jpg');
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px 12px;
+    align-items: center;
+}
+
+/* links */
+nav a {
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #de3a3ac5;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgba(8, 37, 62, 0.5);
+    font-family: 'Creepster', cursive;
+    font-size: 1.15rem;
+}
+
+/*Hover*/
+nav a:hover,
+nav a:focus {
+    color: #0f1720;
+}
+
+nav a.active {
+    background: #1659f3;
+    color: white;
+}
+
+main {
+    max-width: 980px;
+    padding: 22px;
+    background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('old_paper.jpg');
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #e6e9ee;
+    border-radius: 10px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0 14px;
+    border-radius: 8px;
+}
