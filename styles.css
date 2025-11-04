@@ -1,6 +1,7 @@
 /* Nathaniel Murray 10/30/25 */
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
+/*background*/
 body {
     background-color: #f6f7f9;
     background-image: url('creepy.png');
@@ -9,7 +10,7 @@ body {
     background-repeat: no-repeat;
 }
 
-/* Page header*/
+/* header and header text*/
 header {
     max-width: 350px;
     margin: 1px;
@@ -26,6 +27,8 @@ header h1 {
     color: rgb(224, 134, 30);
 }
 
+
+/*nav box*/
 nav {
     max-width: 980px;
     padding: 10px 16px;
@@ -47,7 +50,7 @@ nav ul {
     align-items: center;
 }
 
-/* links */
+
 nav a {
     padding: 8px 12px;
     border-radius: 8px;
@@ -60,7 +63,7 @@ nav a {
     font-size: 1.15rem;
 }
 
-/*Hover*/
+/*Hover function might be working... from google*/
 nav a:hover,
 nav a:focus {
     color: #0f1720;
@@ -71,6 +74,7 @@ nav a.active {
     color: white;
 }
 
+/*body of website*/
 main {
     max-width: 980px;
     padding: 22px;
@@ -87,4 +91,5 @@ main img {
     display: block;
     margin: 10px 0 14px;
     border-radius: 8px;
+
 }
